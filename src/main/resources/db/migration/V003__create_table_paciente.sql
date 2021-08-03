@@ -3,10 +3,10 @@ CREATE TABLE cliente (
 	nome 		    varchar(50) not null,
     cpf             varchar(13) not null,
     endereco_id     bigint,
-    
+
     primary key(id)
 ) engine=InnoDB default charset=utf8;
 
 ALTER TABLE cliente
-    ADD CONSTRAINT endereco_id_fkey
+    ADD CONSTRAINT cliente_endereco_id_fkey
         FOREIGN KEY (endereco_id) REFERENCES endereco (id);

@@ -1,10 +1,10 @@
 package com.projetobd.cliente;
 
-import com.projetobd.Endereco.Endereco;
-import com.projetobd.Endereco.EnderecoFactory;
+import com.projetobd.endereco.Endereco;
+import com.projetobd.endereco.EnderecoFactory;
 import org.springframework.stereotype.Component;
 
-import com.projetobd.cliente.clientepayload.ClienteRequest;
+import com.projetobd.cliente.payload.ClienteRequest;
 
 @Component
 public class ClienteFactory {

@@ -1,6 +1,6 @@
-package com.projetobd.cliente.clientepayload;
+package com.projetobd.cliente.payload;
 
-import com.projetobd.Endereco.payload.EnderecoRequest;
+import com.projetobd.endereco.payload.EnderecoRequest;
 import lombok.Getter;
 import lombok.Setter;
 

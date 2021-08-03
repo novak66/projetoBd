@@ -3,8 +3,8 @@ package com.projetobd.cliente;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import com.projetobd.cliente.clientepayload.ClienteRequest;
-import com.projetobd.cliente.clienteservice.ClienteService;
+import com.projetobd.cliente.payload.ClienteRequest;
+import com.projetobd.cliente.service.ClienteService;
 
 @RestController
 @RequestMapping("/cliente")

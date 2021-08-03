@@ -2,7 +2,7 @@ package com.projetobd.cliente;
 
 import javax.persistence.*;
 
-import com.projetobd.Endereco.Endereco;
+import com.projetobd.endereco.Endereco;
 import lombok.Getter;
 import lombok.Setter;
 

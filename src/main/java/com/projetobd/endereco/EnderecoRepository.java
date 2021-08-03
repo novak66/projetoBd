@@ -1,6 +1,5 @@
-package com.projetobd.Endereco;
+package com.projetobd.endereco;
 
-import com.projetobd.cliente.Cliente;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 

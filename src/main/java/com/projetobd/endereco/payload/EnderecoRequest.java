@@ -1,4 +1,4 @@
-package com.projetobd.Endereco.payload;
+package com.projetobd.endereco.payload;
 
 import lombok.Getter;
 import lombok.Setter;

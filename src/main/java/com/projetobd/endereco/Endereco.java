@@ -1,4 +1,4 @@
-package com.projetobd.Endereco;
+package com.projetobd.endereco;
 
 import lombok.Getter;
 import lombok.Setter;

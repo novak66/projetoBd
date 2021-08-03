@@ -1,9 +1,9 @@
-package com.projetobd.Endereco.service;
+package com.projetobd.endereco.service;
 
-import com.projetobd.Endereco.Endereco;
-import com.projetobd.Endereco.EnderecoFactory;
-import com.projetobd.Endereco.EnderecoRepository;
-import com.projetobd.Endereco.payload.EnderecoRequest;
+import com.projetobd.endereco.Endereco;
+import com.projetobd.endereco.EnderecoFactory;
+import com.projetobd.endereco.EnderecoRepository;
+import com.projetobd.endereco.payload.EnderecoRequest;
 import org.springframework.stereotype.Service;
 
 @Service

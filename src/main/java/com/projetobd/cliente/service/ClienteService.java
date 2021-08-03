@@ -1,9 +1,9 @@
-package com.projetobd.cliente.clienteservice;
+package com.projetobd.cliente.service;
 
 import java.util.List;
 
 import com.projetobd.cliente.Cliente;
-import com.projetobd.cliente.clientepayload.ClienteRequest;
+import com.projetobd.cliente.payload.ClienteRequest;
 
 public interface ClienteService {
 	

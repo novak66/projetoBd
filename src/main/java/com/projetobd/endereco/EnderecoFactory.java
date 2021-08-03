@@ -1,7 +1,6 @@
-package com.projetobd.Endereco;
+package com.projetobd.endereco;
 
-import com.projetobd.Endereco.payload.EnderecoRequest;
-import com.projetobd.Endereco.service.EnderecoService;
+import com.projetobd.endereco.payload.EnderecoRequest;
 import org.springframework.stereotype.Component;
 
 @Component
