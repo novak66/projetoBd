@@ -1,5 +1,6 @@
 package com.projetobd.animal.service;
 
+import com.projetobd.VacinaAnimal.VacinaAnimal;
 import com.projetobd.animal.Animal;
 import com.projetobd.animal.payload.AnimalRequest;
 
@@ -12,4 +13,6 @@ public interface AnimalService {
     List<Animal> animais();
 
     List<Animal> animaisByCidade(String cidade);
+
+    VacinaAnimal animalVacinas(Integer animalId);
 }

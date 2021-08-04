@@ -8,7 +8,10 @@ import com.projetobd.cliente.payload.ClienteRequest;
 public interface ClienteService {
 	
 	void create(ClienteRequest clienteRequest);
-	
-	List<Cliente> Clientes();
 
+	void update(Integer clienteId, ClienteRequest clienteRequest);
+
+	void delete(Integer clienteId);
+
+	List<Cliente> Clientes();
 }

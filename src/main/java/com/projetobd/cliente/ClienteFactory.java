@@ -28,4 +28,15 @@ public class ClienteFactory {
 		return cliente;
 	}
 
+	public Cliente update(Cliente cliente, ClienteRequest clienteRequest) {
+
+		cliente.setNome(clienteRequest.getNome());
+		cliente.setCpf(clienteRequest.getCpf());
+
+		Endereco endereco = enderecoFactory.create(clienteRequest.getEndereco());
+		cliente.setEndereco(endereco);
+
+		return cliente;
+	}
+
 }

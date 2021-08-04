@@ -26,11 +26,27 @@ public class ClienteServiceImpl implements ClienteService {
 		
 		clienteRepository.save(cliente);
 	}
-	
+
+	@Override
 	public List<Cliente> Clientes() {
 		return clienteRepository.findAll();
 	}
-	
-	
 
+	@Override
+	public void update(Integer clienteId, ClienteRequest clienteRequest) {
+		Cliente cliente = clienteRepository.findById(clienteId).orElse(null);
+
+		cliente = clienteFactory.update(cliente, clienteRequest);
+
+		clienteRepository.save(cliente);
+	}
+
+	@Override
+	public void delete(Integer clienteId) {
+		Cliente cliente = clienteRepository.findById(clienteId).orElse(null);
+
+		if(cliente != null) {
+			clienteRepository.delete(cliente);
+		}
+	}
 }

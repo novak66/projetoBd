@@ -1,5 +1,6 @@
 package com.projetobd.animal;
 
+import com.projetobd.VacinaAnimal.VacinaAnimal;
 import com.projetobd.animal.service.AnimalService;
 import io.leangen.graphql.annotations.GraphQLQuery;
 import io.leangen.graphql.spqr.spring.annotations.GraphQLApi;
@@ -25,5 +26,10 @@ public class AnimalResolver {
     @GraphQLQuery
     public List<Animal> animaisByCidade(String cidade) {
         return animalService.animaisByCidade(cidade);
+    }
+
+    @GraphQLQuery
+    public VacinaAnimal animalVacinas(Integer animalId){
+        return animalService.animalVacinas(animalId);
     }
 }

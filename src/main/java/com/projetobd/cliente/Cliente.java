@@ -18,6 +18,6 @@ public class Cliente {
 	private String nome;
 	private String cpf;
 
-	@ManyToOne(cascade=CascadeType.PERSIST)
+	@OneToOne(cascade=CascadeType.ALL, orphanRemoval = true)
 	Endereco endereco;
 }
